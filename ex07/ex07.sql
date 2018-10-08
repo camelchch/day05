@@ -1,4 +1,4 @@
 SELECT title, summary
-FROM movies
+FROM film
 WHERE title LIKE '%42%' OR summary LIKE '%42%'
-ORDER BY LEN(summary) ASC;
+ORDER BY CHAR_LENGTH(summary) ASC;

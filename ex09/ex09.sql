@@ -1,4 +1,3 @@
 SELECT COUNT(duration) AS 'nb_short_films'
-FROM films
+FROM film
 WHERE duration <= 42;
-

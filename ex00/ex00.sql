@@ -1,1 +1,1 @@
-CREATE DATABASE db_saxiao;
+CREATE DATABASE `db_saxiao`;
